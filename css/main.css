@@ -46,6 +46,7 @@ a {
 
 }
 .section__container{
+	background-color: #6b6a6a;
 	max-width: 1450px;
 	padding: 0px 20px;
 	margin: 0px auto;
@@ -74,7 +75,7 @@ a {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 30px;
+	font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
 	line-height: 124%;
 	color: #000000;
 }
@@ -166,7 +167,7 @@ ul, li {
 
 .header {
 	background: url('../img/Fon.jpg') no-repeat center top / cover;
-	width: 100%;
+	
 	box-sizing: border-box;
 	padding-top: 13px;
 	color: #fff;
