@@ -76,6 +76,11 @@ background-size: 100% 93%;
 	line-height: 109%;
 	color: #000000;
 }
+@media only screen and (max-width: 589px) {
+     .section__title{
+ 		padding-top: 100px;
+}
+  }
 .section__text{
 	font-family: Montserrat;
 	font-style: normal;
