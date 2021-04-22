@@ -79,6 +79,7 @@ background-size: 100% 93%;
 @media only screen and (max-width: 589px) {
      .section__title{
  		padding-top: 20px;
+ 		font-size: calc(2.5rem + 24 * (100vw - 320px) / 880);
 }
   }
 .section__text{
@@ -149,35 +150,12 @@ ul, li {
 
 }
 .container2 {
-	overflow-x: hidden;
-	max-width: 100% ;
-	width: 826px;
-	height: 893px;
-	/*позиционирование по центру*/
-	margin: 0 auto; 
-	box-sizing: border-box;
+	max-width: 1450px;
+	padding: 0px 20px ;
+	margin: 0px auto;
 
 }
-.container3 {
-	overflow-x: hidden;
-	max-width: 100% ;
-	width: 1424px;
-	height: 1400px;
-	/*позиционирование по центру*/
-	margin: 0 auto; 
-	box-sizing: border-box;
 
-}
-.container2 {
-	overflow-x: hidden;
-	max-width: 100% ;
-	width: 1424px;
-	height: 1400px;
-	/*позиционирование по центру*/
-	margin: 0 auto; 
-	box-sizing: border-box;
-
-}
 
 
 .header {
@@ -263,6 +241,11 @@ outline:none;
 	  zoom: 80%;
 }
   }
+  @media only screen and (max-width: 330px) {
+     .status {
+	  zoom: 77%;
+}
+  }
 .logo{
 	margin-top: 13px;
 	width: 49px;
@@ -318,7 +301,12 @@ outline:none;
 }
 @media only screen and (max-width: 450px) {
      .slider{
-      zoom: 75%;
+      zoom: 74%;
+  }
+}
+@media only screen and (max-width: 363px) {
+     .slider{
+      zoom: 65%;
   }
 }
 
@@ -535,10 +523,10 @@ outline:none;
 }
 .description2{
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	margin-top: 160px;
-	width: 502px;
-	height: 108px
+	
 }
 .description3{
 	margin-top: 174px;
@@ -570,16 +558,17 @@ outline:none;
 	line-height: 109%;
 }
 .why{
+	max-width: 1450px;
 	align-items: center;
 	display: flex;
-	
+	justify-content: space-between;
 	margin-top: 63px;
 }
 .why2{
-	margin-left: 84px;
+
 }
 .why3{
-	margin-left: 84px;
+	
 }
 .why h3 {
 	margin-left: 10px;
@@ -590,8 +579,7 @@ outline:none;
 	font-weight: medium;
 	font-size: 27px;
 	line-height: 109%;
-	width: 216px;
-	height: 35px;
+	
 }
 .why p {
 
@@ -602,18 +590,34 @@ outline:none;
 	font-size: 20px;
 	line-height: 109%;
 }
-.tekst1 p{
-	width: 172px;
-	height: 62px;
+.elem1{
+	align-items: center;
+	display: flex;
+	width: 45%;
 }
-.tekst2 p{
-	width: 361px;
-	height: 61px;
+.elem2{
+	width: 50%;
+	display: flex;
+	padding-top: 20px;
+
 }
-.tekst3 p{
-	width: 251px;
-	height: 63px;
+.elem3{
+	display: flex;
+	padding-top: 20px;
 }
+@media only screen and (max-width: 1081px) {
+     .why {
+     	align-items: flex-start;
+ 		flex-direction: column;
+}
+	.why2{
+		margin: 0 0 0;
+	}
+	.why3{
+		margin: 0 0 0;
+	}
+  }
+
 .slider2 {
 	border:none;
 	outline:0 none !important;
