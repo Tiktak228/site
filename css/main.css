@@ -76,7 +76,7 @@ background-size: 100% 93%;
 	line-height: 109%;
 	color: #000000;
 }
-@media only screen and (max-width: 589px) {
+@media only screen and (max-width: 1081px) {
      .section__title{
  		padding-top: 20px;
 }
