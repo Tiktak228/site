@@ -605,7 +605,7 @@ outline:none;
 	display: flex;
 	padding-top: 20px;
 }
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 1085px) {
      .why {
      	align-items: flex-start;
  		flex-direction: column;
