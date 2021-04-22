@@ -76,7 +76,7 @@ background-size: 100% 93%;
 	line-height: 109%;
 	color: #000000;
 }
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 589px) {
      .section__title{
  		padding-top: 20px;
 }
@@ -258,6 +258,11 @@ outline:none;
 	margin-top: 60px;
 	margin-left: -25px;
 }
+@media only screen and (max-width: 1081px) {
+     .status {
+	  zoom: 80%;
+}
+  }
 .logo{
 	margin-top: 13px;
 	width: 49px;
