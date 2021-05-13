@@ -32,7 +32,7 @@ $('.slider3').slick({
 	asNavFor: ".slider4",
 	speed:800,
 	waitForAnimate:false,
-	//touchThreshold:30,
+	touchThreshold:30,
 });
 });
 $(document).ready(function(){
@@ -54,6 +54,6 @@ $('.slider4').slick({
 		}
 	}
 	]
-	//touchThreshold:10,
+	touchThreshold:30,
 });
 });
