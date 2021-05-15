@@ -18,7 +18,7 @@ h2 {
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
-font-size: 50px;
+font-size: calc(2.0rem + 10 * (100vw - 320px) / 880);
 line-height: 109%;
 }
 
@@ -281,6 +281,26 @@ outline:none;
 	border:none;
 	overflow: hidden;
 	height: 203px
+}
+#formName.form__input{
+	background: rgba(87, 87, 87, 0.64);
+    outline: 0 none !important;
+    border: none;
+}
+#formEmail.form__input{
+	background: rgba(87, 87, 87, 0.64);
+    outline: 0 none !important;
+    border: none;
+}
+#formPhone.form__input{
+	background: rgba(87, 87, 87, 0.64);
+    outline: 0 none !important;
+    border: none;
+}
+#form__Message.form__input{
+	background: rgba(87, 87, 87, 0.64);
+    outline: 0 none !important;
+    border: none;
 }
 .slick-track{
 	border:none;
@@ -983,26 +1003,66 @@ outline:none;
 	margin-top: 0px;
 	margin-top: 100px;
 }
+ @media only screen and (max-width: 1081px) {
 .description5{
-	display: flex;
-
-	align-items: center;
-	margin-top: 0px;
 	margin-top: 100px;
+	 background: url(...img/fon2.jpg) no-repeat top center; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    background-color: #FAEBC5;
+    background: rgba(250, 235, 197, 0.41);
+    overflow: hidden;
+   
+    width: 100%;
+  
+    right: 0;
+}
+}
+.description5 h2{
+	padding-top: 100px;
+	font-size: calc(1.8rem + 10 * (100vw - 320px) / 880)
+}
+@media only screen and (max-width: 1081px) {
+.description5 h2{
+	margin-top: 0px;
+	width: 50%;
+	font-size: calc(2.0rem + 10 * (100vw - 320px) / 880)
+	}
+	.description5 .section__text{
+		padding-bottom: 100px;
+	}
 }
 
+.description5 .section__image{
+	padding-bottom: 0px;
+}
+@media only screen and (max-width: 767px) {
+
+.description5{
+	max-height: 490px;
+}
+}
+@media only screen and (max-width: 478px) {
+
+.description5{
+	max-height: 680px;
+}
+}
+.description5 .section__text{
+	font-size: calc(1.25rem + 6 * (100vw - 320px) / 880);
+}
 .container4{
 	
 	max-width: 1450px;
 	padding: 0px 20px;
 	margin: 0px auto;
 	overflow: hidden;
-}
-.container5{
-	
-	max-width: 1450px;
-	padding: 0px 20px;
-	margin: 0px auto;
 }
 
 
@@ -1519,18 +1579,145 @@ outline:none;
 	}
 
 
+.description2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0px;
+	
+}
+.container2 {
+	max-width: 1450px;
+	padding: 0px 20px ;
+	margin: 0px auto;
+	margin-top: 53.120px;
+	justify-content: space-between;
+}
+
+.ob{
+width: 939.58px;
+height: 1074.77px;
+}
+@media only screen and (max-width: 1909px) {
+     	.ob{
+		height: 967.77px;
+	}
+	}
+	@media only screen and (max-width: 1501px) {
+     	.ob{
+		height: 944.77px;
+	}
+	}
 
 
 
+@media only screen and (max-width: 1345px) {
+     	.ob{
+		height: 969.77px;
+	}
+	}
+@media only screen and (max-width: 1200px) {
+     	.ob{
+		height: 876.77px;
+	}
+	}
 
 
 
+	@media only screen and (min-width: 1080px) {
+     	.new .container2{
+		margin-top: 0px;
+	}
+	}
 
 
 
+	.description6{
+	margin-top: 100px;
+	 background: url('../img/Fon3.jpg') no-repeat center top / cover; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+   
+    width: 100%;
+  
+    right: 0;
+}
+.container6{
+	
+	max-width: 1450px;
+	padding: 0px 20px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.wrapper2 .form{
+	
+	margin: 0 auto;
+	color: #ffff;
+}
+.wrapper2 .from__title{
+margin-top: 100px;
+}
+.wrapper2 .from_body{
 
+}
+.wrapper2 .form__item{
+	margin: 0px 0px 30px 0px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 109%;
+}
+.wrapper2 .from__item{
+margin: 0px 0px 20px 10px;
 
+}
+.wrapper2 .form__label{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	display: block;
+	margin: 0px 0px 6px 10px;
+}
+.wrapper2 .form__input{
 
+	height: 50px;
+	padding-bottom: 0px 20px;
+	border-radius: 5px;
+	width: 57%;
+
+}
+.wrapper2 .options{
+
+}
+.wrapper2 .options__item{
+
+}
+.wrapper2 .options__input{
+
+}
+.wrapper2 .options__label{
+}
+.wrapper2 .select{
+
+}
+.wrapper2 .file{
+
+}
+.wrapper2 .file__item{
+margin: 0px 0px 20px 10px;
+}
+.wrapper2 .checkbox{
+	display: flex;
+    align-items: center;
+}
 
 
 
