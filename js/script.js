@@ -54,6 +54,7 @@ $('.slider4').slick({
 		}
 	}
 	]
-	//touchThreshold:30,
+	//touchThreshold:10,
 });
 });
+
