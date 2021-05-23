@@ -358,12 +358,12 @@
  				<h2 class="from__title">Остались вопросы? Задайте!</h2>
  				<div class="form__item">
  					<label for="formName" class="form__label">Имя/Компания*</label>
- 					<input id="formName" type="text" name="name" class="form__input">
+ 					<input id="formName" type="text" name="name" class="form__input _req">
  				</div>
 
  				<div class="form__item">
  					<label for="formEmail" class="form__label">E-mail*</label>
- 					<input id="formEmail" type="text" name="email" class="form__input">
+ 					<input id="formEmail" type="text" name="email" class="form__input _req _email">
  				</div>
  				<div class="form__item">
  					<label for="formPhone" class="form__label">Телефон</label>
@@ -393,28 +393,39 @@
 							<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
 							<div class="file__button">Выбрать</div>
 						</div>
-						<div class="file__preview"></div>
+						<div id="formPreview" class="file__preview"></div>
 					</div>
 			</div>
  			<div class="form__item">
  				<div class="checkbox">
- 					<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input"> 
- 					<label for="formAgreement" class="form__label"> <span>Я даю своё согласие на обработку персональных данных в соответствии с <a href="txt/soglashenie.txt">Устовиями</a></span></label>
+ 					<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req"> 
+ 					<label for="formAgreement" class="checkbox__label"><span>Я даю своё согласие на обработку персональных данных в соответствии с <a href="txt/soglashenie.txt">Устовиями</a>*</span></label>
  				</div>
  			</div>
- 			<button type="submit" class="form__item">Отправить</button>
+ 			<button type="submit" class="form__button">Отправить</button>
  			</form>
  			</div>
  		</div>
  		</div>
+ 		<div class="wrapper3">
+  		<div class="container6">
+  			<div class="end">
+ 			<div class="mail">
+ 			<p>kislenko@avtoteh134.com</p>
+ 			</div>
+ 			<div class="adres">
+			<p>г. Михайловка,ул. Победы, 30а/1</p>
+			</div>
+			<div class="nomer">
+				<img src="img/call2.svg" alt="call">
+			<a href="tel:+79044185376" class="tel2">
+			+7-904-418-53-76
+			</a>
+			</div>
  		</div>
-
-
-	</section>
-	<footer id="footer" class="footer">
-		<div class="container">
-			
+  		</div>
 		</div>
-	</footer>
+ 		</div>
+<script src="js/script2.js"></script>
 </body>
 </html>
